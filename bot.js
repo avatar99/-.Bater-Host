@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const devs = [''];
+const devs = ['389090790984515594'];
 const db = require('quick.db');
 const premium = ['557181389100023839']
 const client = new Discord.Client();   
@@ -2285,7 +2285,7 @@ const cuttweet = [     'كت تويت ‏| تخيّل لو أنك سترسم ش�
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
    .setThumbnail(message.author.avatarURL) 
- .addField('3bker Community ©' ,
+ .addField('Avatar Community ©' ,
   `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`)
   message.channel.sendEmbed(embed);
   console.log('[id] Send By: ' + message.author.username)
