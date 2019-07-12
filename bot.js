@@ -393,7 +393,7 @@ client.on('message', message => {
             message.channel.send({embed: {
                 color: 3447003,
                 author: {
-                  name: '3bker Community ©\'s translator',
+                  name: 'Avatar Community ©\'s translator',
                   icon_url: client.user.avatarURL
                 },
                 fields: [{
